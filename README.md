@@ -109,5 +109,7 @@ Add the following to the end of the file:
 
 >http://nagios_server_ip/nagios  
 
+[Nagios client setup on centos7](nagios-client/client.md)
+
 
 
