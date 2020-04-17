@@ -91,9 +91,10 @@ Now create the directory that will store the configuration file for each server 
 
 Add the following to the end of the file:  
 
->define command{
-        command_name check_nrpe
-        command_line $USER1$/check_nrpe -H $HOSTADDRESS$ -c $ARG1$
+
+>define command{  
+        command_name check_nrpe  
+        command_line $USER1$/check_nrpe -H $HOSTADDRESS$ -c $ARG1$  
 >}  
 
 #### Configure Apache  
