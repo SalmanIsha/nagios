@@ -21,6 +21,7 @@ command[check_total_procs]=/usr/lib64/nagios/plugins/check_procs -w 150 -c 200
 command[check_mem]=/usr/lib64/nagios/plugins/check_mem.pl -f -w 20 -c 10  
 command[check_root_disk]=/usr/lib64/nagios/plugins/check_disk -w 20% -c 10% -p /  
 command[check_mnt_disk]=/usr/lib64/nagios/plugins/check_disk -w 20% -c 10% -p /mnt  
+command[check_port]=/usr/lib64/nagios/plugins/check_port.pl -p 5000 -h 192.168.3.29 -w 5 -c 10  
 ```  
 *Need to download check_mem.pl from below link as it wasnt available in default *
 ```
